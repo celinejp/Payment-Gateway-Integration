@@ -58,7 +58,6 @@ font-family: "Bagel Fat One";
 color: #194e5f;
 font-size: 2.5rem;
 font-weight: bold;
-
 }
 
 .nav-item{
@@ -81,9 +80,6 @@ font-weight: bold;
     border-width: 5px;
 }
 
-.title-image{
-    width: 90%;
-}
 .intro{
     text-align: center;
 }
@@ -111,9 +107,6 @@ font-weight: bold;
 
     #title{
         text-align: center;
-    }
-    .title-image{
-        position: static;
     }
 }
 
