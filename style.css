@@ -1,0 +1,142 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title{
+    height: 600px;
+    color: #276a83;
+        background-repeat: no-repeat, repeat;
+        background-image: url("images/childstudying.jpg");
+        background-blend-mode: soft-light;
+        background-color: #7ce2e4;
+        display: flex;
+      
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+h1 {  font-family: "Montserrat-Black";  
+    font-size: 3.5rem;  
+    line-height: 1.5;
+    font-weight: 700;  
+}
+
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    font-weight: bold;
+    color: #276a83;
+    line-height: 3;
+}
+
+h3{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;  
+    font-weight: bold;
+    color: #276a83;
+}
+h4{
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #276a83;
+}
+.aboutus{
+    color: #276a83;
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1rem;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    color: #276a83;
+}
+.navbar-brand{
+font-family: "Bagel Fat One";
+color: #194e5f;
+font-size: 2.5rem;
+font-weight: bold;
+
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    color: #3290b3;
+    font-family: "Montserrat";
+}
+
+.donate-button{
+    margin: 5% 3% 5% 0;
+    width: 25%;
+    padding: 14px 28px;
+    font-weight: bold;
+    color: #276a83;
+    border-color: #276a83;
+    border-width: 5px;
+}
+
+.title-image{
+    width: 90%;
+}
+.intro{
+    text-align: center;
+}
+
+#about{
+    padding: 7% 15%;
+}
+
+.about-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #7ce2e4;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #276a83;
+}
+
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+    }
+}
+
+#aim{
+    text-align: center;
+    background-color: #50f0f3;
+    padding: 50px;
+}
+
+#footer{
+    padding: 10px;
+    background-color: #fff;
+    
+}
+
+.footer{
+    text-align: center;
+    font-weight: normal;
+    color: #000;
+    line-height: 1.5;
+    
+}
+
+.footer-icon {
+    margin: 0 5px;
+}
